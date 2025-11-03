@@ -17,12 +17,16 @@ Vokomokum Ansible deployment
 In this folder you'll find a couple of [Ansible](https://www.ansible.com) roles to setup and manage the
 infrastructure for [Vokomokum platform](https://vokomokum.nl)
 
-To use this roles you have to install these packages:
+To use this roles you have to install these packages on the Ansible control-node:
 ```Shell
 apt install pipx
 pipx install --include-deps ansible
 ```
-Install mitogen by following their install steps [https://mitogen.networkgenomics.com/ansible_detailed.html#installation][https://mitogen.networkgenomics.com/ansible_detailed.html#installation]
+Also, you'll need to download and unpack the mitogen-package and add the following line to [default] section of the [ansible.cfg](https://github.com/vokomokum/deployment_config/edit/main/Ansible/ansible.cfg) file in this repository:
+```Shell
+strategy_plugins = /path/to/mitogen-0.3.30/ansible_mitogen/plugins/strategy
+```
+For more info, see: [https://mitogen.networkgenomics.com/ansible_detailed.html#installation][https://mitogen.networkgenomics.com/ansible_detailed.html#installation]
 
 Our setup depends on external roles that are defined in this repository's `requirements.yml`. To install them run:
 ```Shell
