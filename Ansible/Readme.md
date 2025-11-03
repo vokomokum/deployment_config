@@ -26,7 +26,7 @@ Also, you'll need to download and unpack the mitogen-package and add the followi
 ```Shell
 strategy_plugins = /path/to/mitogen-0.3.30/ansible_mitogen/plugins/strategy
 ```
-For more info, see: [https://mitogen.networkgenomics.com/ansible_detailed.html#installation][https://mitogen.networkgenomics.com/ansible_detailed.html#installation]
+For more info, see: [https://mitogen.networkgenomics.com/ansible_detailed.html#installation](https://mitogen.networkgenomics.com/ansible_detailed.html#installation)
 
 Our setup depends on external roles that are defined in this repository's `requirements.yml`. To install them run:
 ```Shell
