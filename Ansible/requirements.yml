@@ -1,3 +1,5 @@
+# This certainly needs some attention. We might want to fork these repo's too.
+
 roles:
   - name: foodcoops.foodsoft
     src: https://github.com/foodcoops/ansible-role-foodsoft.git
