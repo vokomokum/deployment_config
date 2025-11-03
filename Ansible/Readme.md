@@ -1,7 +1,7 @@
-Foodcoops.net Ansible deployment
+Vokomokum Ansible deployment
 ================================
 
-- [Foodcoops.net Ansible deployment](#foodcoopsnet-ansible-deployment)
+- [Vokomokum Ansible deployment](#vokomoum-ansible-deployment)
 - [Introduction](#introduction)
 - [Roles overview](#roles-overview)
 - [Common tasks](#common-tasks)
@@ -15,8 +15,7 @@ Foodcoops.net Ansible deployment
 
 # Introduction
 In this folder you'll find a couple of [Ansible](https://www.ansible.com) roles to setup and manage the
-infrastructure for the [global Foodsoft platform](https://foodcoops.net/global-foodsoft-platform/) of
-[foodcoops.net](https://foodcoops.net).
+infrastructure for [Vokomokum platform](https://vokomokum.nl)
 
 To use this roles you have to install these packages:
 ```Shell
