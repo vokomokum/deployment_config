@@ -19,8 +19,11 @@ infrastructure for [Vokomokum platform](https://vokomokum.nl)
 
 To use this roles you have to install these packages:
 ```Shell
-apt install ansible ansible-mitogen
+apt install pipx
+pipx install --include-deps ansible
 ```
+Install mitogen by following their install steps [https://mitogen.networkgenomics.com/ansible_detailed.html#installation][https://mitogen.networkgenomics.com/ansible_detailed.html#installation]
+
 Our setup depends on external roles that are defined in this repository's `requirements.yml`. To install them run:
 ```Shell
 ansible-galaxy install -r requirements.yml
